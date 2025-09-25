@@ -150,7 +150,7 @@ void loop() {
       {
       targetTime += 1000;
       ss++;                                                                            // advance second
-      if (ss>60)
+      if (ss>59)
          {
          ss=ss%60;
          mm++;                                                                         // advance minute
@@ -403,3 +403,4 @@ void EEST(){
 
 
                         
+
